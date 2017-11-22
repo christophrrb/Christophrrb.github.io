@@ -1,16 +1,18 @@
 body {
-  text-align: center;
+  padding: 30px;
 }
 
-#blackText {
-  color: black;
+#pictureofme {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 50px;
+  box-shadow: 4px 7px 5px grey;
 }
 
-h3 {
-  font-style: italic;
-  color: gray;
-}
-
-article {
-  
+.jumbotron {
+  background-color: #d9d9d9;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
