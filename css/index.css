@@ -1,13 +1,17 @@
-body {
-  padding: 30px;
-}
-
 #pictureofme {
   width: 250px;
   height: auto;
   border-radius: 50%;
   margin-right: 50px;
   box-shadow: 4px 7px 5px grey;
+}
+
+.row-center {
+	align-items: center;
+}
+
+#linguo {
+	background-color: rgb(77, 182, 172);
 }
 
 .jumbotron {
