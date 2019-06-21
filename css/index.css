@@ -10,8 +10,16 @@
 	align-items: center;
 }
 
+img {
+	max-height: 35em;
+}
+
 #linguo {
 	background-color: rgb(77, 182, 172);
+	color: white;
+	padding: 50px;
+	font-family: 'Karla', sans-serif;
+	text-align: center;
 }
 
 .jumbotron {
