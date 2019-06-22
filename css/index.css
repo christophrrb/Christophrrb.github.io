@@ -51,6 +51,18 @@ img {
 	width: 100%;
 }
 
+#bdpa-loans {
+	background-color: #0099ff;
+	padding: 50px;
+	color: white;
+}
+
+#crossroads {
+	background-color: rgb(67, 67, 67);
+	color: white;
+	padding: 50px 150px 50px 150px;
+}
+
 .jumbotron {
 	background-color: #d9d9d9;
 	height: 300px;
