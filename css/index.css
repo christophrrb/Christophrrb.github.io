@@ -1,17 +1,45 @@
+.container {
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+	text-align: center;
+}
+
 #pictureofme {
-  width: 250px;
-  height: auto;
-  border-radius: 50%;
-  margin-right: 50px;
-  box-shadow: 4px 7px 5px grey;
+	width: 250px;
+	height: auto;
+	box-shadow: 4px 7px 5px grey;
+	animation-name: fadein;
+	animation-duration: 2s;
+}
+
+.textunderpictureofme {
+	opacity: 0;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards; //So it does not turn back white after the animation.
+}
+
+.row-vertical-center {
+	align-items: center;
+}
+
+.row-horizontal-center {
+	justify-content: center;
 }
 
 .row-center {
 	align-items: center;
+	justify-content: center;
 }
 
 img {
 	max-height: 35em;
+}
+
+#top {
+	margin: 3% 20% 2% 20%;
 }
 
 #linguo {
@@ -20,11 +48,17 @@ img {
 	padding: 50px;
 	font-family: 'Karla', sans-serif;
 	text-align: center;
+	width: 100%;
 }
 
 .jumbotron {
-  background-color: #d9d9d9;
-  height: 300px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+	background-color: #d9d9d9;
+	height: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@keyframes fadein {
+	from {opacity: 0}
+	to {opacity: 1}
 }
