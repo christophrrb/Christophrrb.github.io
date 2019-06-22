@@ -34,10 +34,6 @@
 	justify-content: center;
 }
 
-img {
-	max-height: 35em;
-}
-
 #top {
 	margin: 3% 20% 2% 20%;
 }
@@ -47,20 +43,18 @@ img {
 	color: white;
 	padding: 50px 200px 50px 200px;
 	font-family: 'Karla', sans-serif;
-	text-align: center;
-	width: 100%;
 }
 
 #bdpa-loans {
 	background-color: #0099ff;
-	padding: 50px;
+	padding: 50px 200px 50px 200px;
 	color: white;
 }
 
 #crossroads {
 	background-color: rgb(67, 67, 67);
 	color: white;
-	padding: 10px 150px 50px 150px;
+	padding: 50px 200px 50px 200px;
 }
 
 .jumbotron {
