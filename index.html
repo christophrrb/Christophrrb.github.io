@@ -13,29 +13,10 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css" >
 	</head>
 	<body>
-		<!--<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-			<a class="navbar-brand" href="index.html">
-				<img src="media/christopherballenger.png" class="rounded-circle" alt="Image of Me" height="50px">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="mailto:cballenger1@student.gsu.edu">Email</a>
-					</li>
-				</ul>
-			</div>
-		</nav>-->
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row row-center mb-4" id="top">
 				<div class="col-lg">
-					<img id="pictureofme" src="media/christopherballenger.png" class="img-fluid rounded-circle mb-3"></td>
+					<img id="pictureofme" src="media/christopherballenger.png" class="img-fluid rounded-circle mb-3">
 				</div>
 				<div class="col-lg">
 					<h1 id="name" class="textunderpictureofme mb-3">Christopher Ballenger</h1>
@@ -55,20 +36,16 @@
 			</div>
 
 			<!--Linguo-->
-			<div id="linguo">
-				<div class="row row-vertical-center">
-					<div class="col-md">
-						<img src="media/linguo1.png" alt="Linguo Screenshot 1" style="max-height:40em;">
-					</div>
-					<div class="col-md">
-						<img src="media/linguo2.png" alt="Linguo Promotional Picture" style="max-width: 40em;">
-					</div>
-				</div>
-				<h3>Linguo is a language-learning app in the style of a chatbot. It provides help with translations, vocabulary, and pronunciation.</h3>
+			<div class="row" id="linguo" style="align-items: center">				
+				<img src="media/linguo1.png" alt="Linguo Screenshot 1" style="max-width: 30%">
+				<span style="max-width: 70%; text-align: center" class="pr-5">
+					<img src="media/linguo2.png" alt="Linguo Promotional Picture" style="max-width: 50em" class="mb-5">
+					<h3>Linguo is a language-learning app in the style of a chatbot. It provides help with translations, vocabulary, and pronunciation.</h3>
+				</span>
 			</div>
 
 			<!--BDPA Loans-->
-			<div id="bdpa-loans">
+			<div class="row" id="bdpa-loans">
 				<h2>BDPA Loans</h2>
 				<br>
 				<img src="media/bdpa-loans.png" class="img-fluid rounded mb-5" alt="BDPA Loans Website" style="box-shadow: 0px 0px 30px #404040; max-height: 40em;">
@@ -76,7 +53,7 @@
 			</div>
 
 			<!--CrossRoads News-->
-			<div id="crossroads">
+			<div class="row" id="crossroads">
 				<div class="row row-vertical-center">
 					<div class="col-md">
 						<img src="media/crossroads-text.png" alt="CrossRoads Logo">
@@ -93,7 +70,7 @@
 			</div>
 
 			<!--scamper.tech-->
-			<div id="scampertech">
+			<div class="row" id="scampertech">
 				<a href="scampertech.epizy.com" style="color: white"><h1 style="font-weight: bold;">scamper.tech</h1></a>
 				<br>
 				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="box-shadow: 0px 0px 30px #404040;">

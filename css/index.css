@@ -1,7 +1,4 @@
 .container {
-	margin: 0px;
-	padding: 0px;
-	max-width: 100%;
 	text-align: center;
 }
 
@@ -41,26 +38,26 @@
 #linguo {
 	background-color: rgb(77, 182, 172);
 	color: white;
-	padding: 50px 200px 50px 200px;
+/*	padding: 50px 200px 50px 200px;*/
 	font-family: 'Karla', sans-serif;
 }
 
 #bdpa-loans {
 	background-color: #0099ff;
-	padding: 50px 200px 50px 200px;
+/*	padding: 50px 200px 50px 200px;*/
 	color: white;
 }
 
 #crossroads {
 	background-color: rgb(67, 67, 67);
 	color: white;
-	padding: 50px 200px 50px 200px;
+/*	padding: 50px 200px 50px 200px;*/
 }
 
 #scampertech {
 	background-color: darkorange;
 	color: white;
-	padding: 50px 200px 50px 200px;
+/*	padding: 50px 200px 50px 200px;*/
 }
 
 .jumbotron {
